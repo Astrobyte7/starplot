@@ -18,15 +18,15 @@ classifiers = [
 dynamic = ["version", "description"]
 keywords = ["astronomy", "stars", "charts", "maps", "constellations"]
 dependencies = [
-    "matplotlib >= 3.5.1",
-    "numpy >= 1.22.1",
-    "pandas >= 1.4.0",
+    "matplotlib",
+    "numpy",
+    "pandas",
     "pydantic", 
-    "skyfield >= 1.41",
-    "adjustText >= 0.8",
+    "skyfield",
+    "adjustText ",
     "cartopy",
-    "geopandas >= 0.13.2",
-    "pillow >= 10.0.0",
+    "geopandas",
+    "pillow",
     "PyYAML",
     "PyOngc",
 ]
